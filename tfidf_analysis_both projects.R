@@ -7,7 +7,6 @@ library(plyr)
 
 
 #import the new comments file
-#setwd("~/Dropbox/INSPIRE/Data/System dumps/GS Comments")
 setwd("C:\\Users\\Amruta\\Desktop\\Research group\\Comments unwind\\CSCW paper\\New comments file")
 
 comments <- read.csv("gravity-spy-comments_2018-02-10.csv", sep = ",", stringsAsFactors = FALSE, header = TRUE)
